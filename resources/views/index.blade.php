@@ -44,7 +44,7 @@
         @endforeach
     </tbody>
   </table>
-{{ $coronacases->links() }}
+{!! $coronacases->links('paginator') !!}
 <div>
 
 @endsection
